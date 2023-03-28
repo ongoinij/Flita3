@@ -69,6 +69,7 @@ int main() {
         printf("%s", "Graph is bonded");
     if(flag == false)
         printf("%s", "Graph is not bonded");
+    fclose(matrixfile1);
     system("dot -Tpng -O C:\\GraphProject\\1\\forgraph1.dot");
     system("C:\\GraphProject\\1\\forgraph1.dot.png");
     return 0;
